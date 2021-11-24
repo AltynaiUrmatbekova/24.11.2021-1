@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+header {
+    background-image: url(./image/nature.jpg);
+    position: relative;
+}
+nav {
+    color: white;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    justify-content: flex-end;
+    
+    
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    
+    padding: 10px;
+}
+article {
+    padding: 30px;
+    color: white;
+  text-align: center;
+}
+main {
+    margin: 20px 150px;
+}
+footer {
+    display: flex;
+    
+    align-items: center;
+    margin: 100px;
+}
